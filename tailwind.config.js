@@ -23,6 +23,15 @@ module.exports = {
         nunito: ['Nunito Sans', 'sans-serif']
       }
     },
+    fontSize: {
+      sm: ['0.8rem', '1rem'],
+      base: ['1.6rem', '1.5rem'],
+      md: ['2.4rem', '2rem'],
+      xl: ['3.157rem', '2.4rem'],
+      '2xl': ['4.209rem', '2.6rem'],
+      '3xl': ['5.61rem', '2.6rem'],
+    }
+
   },
   plugins: [],
 }

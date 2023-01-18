@@ -9,10 +9,11 @@ export default function Home() {
   const [results] = useQuery({ query: PRODUCT_QUERY })
   const { data, fetching, error } = results;
 
-  if (fetching) return <p> loading</p>;
-  if (error) return <p> loading</p>;
+  // if (fetching) return <p> loading</p>;
+  // if (error) return <p> loading</p>;
 
-  const products = data.products.data;
+  // const products = data.products.data;
+
   return (
     <>
       <Head>
@@ -22,7 +23,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1 className='font-cinzel text-3xl'>hello</h1>
       </main>
     </>
   )

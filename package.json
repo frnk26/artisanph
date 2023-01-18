@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "class-variance-authority": "^0.4.0",
+    "classnames": "^2.3.2",
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.2",
     "fabric": "^5.3.0",
