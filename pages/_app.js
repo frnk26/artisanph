@@ -1,5 +1,5 @@
 import '@/styles/globals.css'
-// 
+// urql
 import Navbar from '@/components/Navbar'
 import { createClient, Provider } from 'urql'
 const client = createClient({ url: process.env.NEXT_PUBLIC_BACKEND_API })

@@ -6,6 +6,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        wht: '#fffaf5',
+        blk: '#18130e',
+        primary: "#e3c9b2",
+        secondary: "#e3d3b2"
+      },
       textColor: {
         skin: {
           base: 'var(--color-text-base)',

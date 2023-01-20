@@ -7,7 +7,7 @@ import { AiOutlineMenu, AiOutlineShopping } from "react-icons/ai";
 const Navbar = () => {
     const [hamburgerIsOpen, setHamburgerIsOpen] = useState(false);
     return (
-        <header className=' md:grid md:justify-items-center fixed top-0 w-full left-0 z-10 text-xl p-4 bg-skin-primary'>
+        <header className=' md:grid md:justify-items-center fixed top-0 w-full left-0 z-10 text-xl p-4 bg-wht'>
             <div className="container grid grid-flow-col grid-cols-3 justify-items-center place-items-center">
                 <button className='md:hidden'
                     onClick={() => setHamburgerIsOpen((open) => !open)}>
@@ -23,14 +23,16 @@ const Navbar = () => {
 
                     </div>
                     <div className="shop-icon">
-                        <AiOutlineShopping />
+                        <button>
+                            <AiOutlineShopping />
+                        </button>
                         <h5 className='hidden'>CART</h5>
                     </div>
                 </div>
-                <nav className={classNames('fixed top-[5.1rem] bg-skin-primary w-full h-[25vh] md:col-start-2 md:h-full md:block md:static', hamburgerIsOpen ? "" : "hidden")}>
+                <nav className={classNames('fixed top-[5.1rem] bg-wht w-full h-[25vh] md:col-start-2 md:h-full md:block md:static', hamburgerIsOpen ? "" : "hidden")}>
                     <ul className='grid text-base h-full justify-items-center items-center md:grid-flow-col [&_a]:font-semibold'>
                         <li><Link href="#">HOME</Link></li>
-                        <li><Link href="#">ABOUT</Link></li>
+                        {/* <li><Link href="#">ABOUT</Link></li> */}
                         <li><Link href="#">SHOP</Link></li>
                         <li><Link href="#">FAQ</Link></li>
                     </ul>
