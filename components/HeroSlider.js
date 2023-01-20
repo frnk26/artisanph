@@ -12,7 +12,7 @@ const HeroSlider = () => {
         setCurrent(current === 0 ? length - 1 : current - 1);
     }
     return (
-        <div className='h-full'>
+        <div className='h-full mt-20'>
             {slidedata.map((slide, index) => {
                 return (
                     <div key={index}>

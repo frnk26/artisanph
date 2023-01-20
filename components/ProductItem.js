@@ -21,7 +21,7 @@ const ProductItem = ({ product }) => {
                     <p>+</p>
 
                 </div>
-                <button className='bg-secondary py-3 px-7 rounded-md md:text-base'>ADD TO CART</button>
+                <button className='bg-secondary py-3 px-7 text-sm rounded-md '>ADD TO CART</button>
             </div>
         </div>
     )
